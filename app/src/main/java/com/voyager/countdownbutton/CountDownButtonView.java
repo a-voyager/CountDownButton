@@ -6,6 +6,7 @@ import android.util.AttributeSet;
 import android.widget.Button;
 
 /**
+ * 倒计时按钮
  * Created by wuhaojie on 2015/7/23.
  */
 public class CountDownButtonView extends Button {
