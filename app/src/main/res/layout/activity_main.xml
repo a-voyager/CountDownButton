@@ -1,12 +1,16 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:voyager="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
     <com.voyager.countdownbutton.CountDownButtonView
 
-        android:layout_width="wrap_content"
+        android:layout_width="120dip"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        voyager:format="%d秒后重新获取"
+        voyager:text="获取验证码"
+        voyager:time="10" />
 
 </LinearLayout>
