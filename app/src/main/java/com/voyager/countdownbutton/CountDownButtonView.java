@@ -66,6 +66,11 @@ public class CountDownButtonView extends Button {
         }
     };
 
+    /**
+     * 构造函数
+     * @param context
+     * @param attrs
+     */
     public CountDownButtonView(Context context, AttributeSet attrs) {
         super(context, attrs);
         initView(context, attrs);
