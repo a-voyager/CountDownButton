@@ -49,6 +49,9 @@ public class CountDownButtonView extends Button {
      * 定时器
      */
     private Timer timer;
+    /**
+     * handler处理消息
+     */
     private Handler handler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
